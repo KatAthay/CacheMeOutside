@@ -1,6 +1,9 @@
 # CacheMeOutside
 V-Day Hackathon Codesmith
 
+Manifest.json - This is the file you need to format to fit your chrome extension needs. We needed service_worker and an icon. which is why you see service_worker and icons. (The service_worker makes it so that whatever tab you are on our little drop down will appear within the top right corner orf that tab.)
+
+
 
 Love is a 2-way street, constantly under construction
 
