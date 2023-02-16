@@ -19,13 +19,13 @@
 .left {
   float: left;
   padding-right: 20px;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .right {
   float: right;
   padding-left: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 /* Speech Bubble */
 
@@ -39,17 +39,17 @@
   line-height: 20px;
   background-color: white;
   border: 1px solid #f28c8a;
-  margin-right: 50px;
-  margin-left: 10px;
+  /* margin-right: 50px;
+  margin-left: 10px; */
   border-radius: 30px;
   box-shadow: inset 0 0 14px #f28c8a;
-  z-index: 1000;
-  padding: 10px 10px 20px 10px;
+  /* z-index: 1000; */
+  padding: 10px 20px 30px 0px;
   vertical-align: middle;
   max-width:100%;
   /* padding-left: 40px;
   padding-bottom: 40px; */
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 0px;
 }
 
 .content {
@@ -87,45 +87,6 @@
  
 }
 
-/* .content:before {
-  background-image: repeating-linear-gradient( 0deg, rgba(0, 0, 0, .08), transparent 2px, rgba(0, 0, 0, .08) .25px, transparent .25px );
-  animation: jiggle .2s linear infinite;
-}
-
-.content:after {
-  background-image: repeating-linear-gradient( 90deg, rgba(0, 0, 0, .04) 1px, transparent 2px, rgba(0, 0, 0, .04) 1px, transparent 1px );
-  animation: wiggle .2s linear infinite;
-} */
-
-
-@keyframes wiggle {
-  0% {
-    margin-left: -1px;
-  }
-
-  50% {
-    margin-left: 1px;
-  }
-
-  100% {
-    margin-left: 0px;
-  }
-}
-
-@keyframes jiggle {
-  0% {
-    margin-top: -1px;
-  }
-
-  50% {
-    margin-top: 1px;
-  }
-
-  100% {
-    margin-top: 0px;
-  }
-}
-
 .speech:after,
 .speech:before {
   content: ' ';
@@ -150,14 +111,14 @@
 }
 
 .txtLine {
-  position: absolute;
+  position: relative;
   left:5px;
   display: block;
   width: 100%;
-  top: 25px;
+  /* top: 25px;
   bottom: 25px;
   left: 10px;
-  right: 85px;
+  right: 85px; */
 }
 
 .txtLine div {
