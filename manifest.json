@@ -4,11 +4,8 @@
   "version": "1.0",
   "description": "A cupid with sassy inspirational quotes. ",
   "action": {
+    "default_popup": "index.html", 
     "default_title": "V-Day Hackathon 2023"
-  },
-  "permissions": ["activeTab", "scripting"],
-  "background": {
-    "service_worker": "background.js"
   },
   "icons": {
     "16": "Cupid_icon_16.png",

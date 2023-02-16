@@ -5,23 +5,29 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<style>
+		html {
+			min-height: 5em;
+			min-width: 10em;
+		}
+	</style>
 	<title>V-Day Quote Extension</title>
 </head>
 <body>
-	<!-- animation div below -->
-	<div class="animation.drop">
-		<div class="speech">
-			<div class="content">
-			</div><div class="txtLine">
-			<div class="show stretch"></div>
-			<div id="quote" class="hide">Valentines Quotes:</div>
-			</div>
-			<div>
-				<img src="./Cupid.png">
+	<div class="animate" style="width: 450px">
+	<div class="speech right"> 
+		<div class="content">
+			<div id="quote" class="txtLine">
+				<div class="show stretch"></div>
+				<div class="hide">Valentine's Quotes</div>
 			</div>
 		</div>
 	</div>
+		<div class="lef">
+			<img src="/Cupid.png" style="width: 300px" />
+		</div>
+	</div>
+	<script src="main.js"></script>
 </body>
-<script src="main.js"></script>
 </html>
 
